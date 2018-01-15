@@ -1,0 +1,28 @@
+{
+    "name": "linkprofit-cpa/yii2-referral-filter",
+    "description": "Referral filter",
+    "keywords": [
+        "yii2",
+        "referral",
+        "session",
+        "cookies"
+    ],
+    "homepage": "https://github.com/linkprofit-cpa/yii2-referral-filter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khatin Konstantin",
+            "email": "phrlog@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": ">=2.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "linkprofit\\ReferralFilter\\": "src/"
+        }
+    }
+}
