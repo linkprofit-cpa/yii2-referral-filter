@@ -1,7 +1,8 @@
 # ReferralFilter
-
+## Installation
+`composer require linkprofit-cpa/yii2-referral-filter`
 ## Usage
-Add code below to the controller behaviours section:
+Add code above to the controller behaviours section:
 
 ```php
 /**
@@ -9,10 +10,7 @@ Add code below to the controller behaviours section:
  */
 public function behaviors()
 {
-    /**
-     * 1 day in seconds
-     * until browser closed by default 
-     */
+    /* 1 day in seconds, until browser closed by default */
     $expire = 60 * 60 * 24;
     return [
         [
