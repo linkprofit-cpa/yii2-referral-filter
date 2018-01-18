@@ -2,7 +2,7 @@
 ## Installation
 `composer require linkprofit-cpa/yii2-referral-filter`
 ## Usage
-Add code above to the controller behaviours section:
+Add code above to the controller behaviors section:
 
 ```php
 /**
